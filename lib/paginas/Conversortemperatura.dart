@@ -25,8 +25,8 @@ class ConversorState extends State<Conversor> {
   }
 
   void limpar() {
-    fahrenheit.text = "";
-    celsius.text = "";
+    fahrenheit.clear();
+    celsius.clear();
   }
 
   @override
