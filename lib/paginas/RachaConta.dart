@@ -56,8 +56,8 @@ class RachaContaState extends State<RachaConta> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 imgfalha,
-                Text("Valor total da conta: $total"),
-                Text("Valor individual: $individual"),
+                Text("Valor total da conta: R\$$total"),
+                Text("Valor individual: R\$$individual"),
                 const SizedBox(
                   height: 15,
                 ),
